@@ -1,0 +1,530 @@
+body 
+{
+    font-family: 'Metrophobic', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header
+{
+    position: static;
+    height: 125px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #304565;
+}
+
+.logo
+{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Maiden Orange', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu ul
+{
+    padding: 50px;
+}
+
+.menu li
+{
+    display: inline;
+    margin: 0 25px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer
+{
+    position: static;
+    height: 125px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #304565;
+}
+
+@media(max-width: 400px)
+{
+    .header
+    {
+        flex-direction: column;
+        font-size: medium;
+    }
+}
+
+.container
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.baixo 
+{
+    position: absolute;
+    bottom: 250px;
+    left: 180px;
+    font-family: 'Metrophobic', sans-serif;
+    display: flex;
+    width: 652px;
+    height: 342px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cima
+{
+    position: absolute;
+    bottom: 470px;
+    left: 180px;
+    font-family: 'Krona One', sans-serif;
+    display: flex;
+    width: 652px;
+    height: 342px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.mudar
+{
+    font-family: 'Metrophobic', sans-serif;
+    color: #FFF;
+    font-weight: 1100;
+    font-size: 40px;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+.box
+{
+    opacity: 1;
+    transition: opacity .2s;
+    margin: 25px;
+    position: relative;
+    width: 1400px;
+    height: 900px;
+    flex-shrink: 0; 
+    border-radius: 50px;
+    background: #D9D9D9;
+}
+
+.text-primeiro
+{    
+    top: 220px;
+    left: 200px;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.doctor
+{
+    position: relative;
+    top: 70px;
+    width: 650px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.topico
+{
+    color: black;
+    font-size: 28px;
+    font-family:'Krona One', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word"
+}
+
+.explicacao
+{
+    color: black;
+    font-size: 24px;
+    font-family: 'Metrophobic' sans-serif;
+    font-weight: 400;
+}
+
+.relogeo
+{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.text1-relogeo
+{
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    display: flex;
+    width: 470px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.text2-relogeo
+{
+    position: absolute;
+    top: 310px;
+    left: 70px;
+    display: flex;
+    width: 340px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.pessoas
+{
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.text1-pessoas
+{
+    position: absolute;
+    top: 650px;
+    left: 70px;
+    display: flex;
+    width: 470px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.text2-pessoas
+{
+    position: absolute;
+    top: 750px;
+    left: 70px;
+    display: flex;
+    width: 340px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.globo
+{
+    position: absolute;
+    top: 120px;
+    left: 1240px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.text1-globo
+{
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    display: flex;
+    width: 470px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+
+.text2-globo
+{
+    position: absolute;
+    top: 320px;
+    left: 980px;
+    display: flex;
+    width: 340px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.chat
+{
+    position: absolute;
+    top: 550px;
+    left: 1240px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.text1-chat
+{
+    position: absolute;
+    top: 645px;
+    left: 850px;
+    display: flex;
+    width: 470px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0; 
+}
+
+.text2-chat
+{
+    position: absolute;
+    top: 750px;
+    left: 980px;
+    display: flex;
+    width: 340px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.textoContato
+{
+    color: black;
+    font-size: 24px;
+    font-family: 'Metrophobic', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word"
+}
+
+.contato
+{
+    transition: opacity .2s;
+    display: flex;
+    width: 800px;
+    height: 140px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contato2
+{
+    transition: opacity .2s;
+    display: flex;
+    width: 700px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+   
+}
+
+.nome
+{
+    transition: opacity .2s;
+    position: absolute;
+    display: flex;
+    top: 173px;
+    left: 400px;
+    width: 200px;
+    height: 225px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.campo-nome
+{
+    transition: opacity .2s;
+    position: absolute;
+    top: 270px;
+    left: 620px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.email
+{
+    transition: opacity .2s;
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 355px;
+    width: 250px;
+    height: 230px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.campo-email
+{
+    transition: opacity .2s;
+    position: absolute;
+    top: 375px;
+    left: 620px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.mensagem
+{
+    transition: opacity .2s;
+    position: absolute;
+    display: flex;
+    top: 420px;
+    left: 650px;
+    width: 100px;
+    height: 125px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.campo-mensagem
+{
+    transition: opacity .2s;
+    position: absolute;
+    top: 530px;
+    left: 380px;
+    width: 700px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.button
+{
+    transition: opacity .2s;
+    color: rgb(51, 99, 255);
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    position:absolute; 
+    top:95%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.textoAgradecimento
+{
+    opacity: 1;
+    transition: opacity .2s;
+    color: #000;
+    text-align: center;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 40px;
+    width: 500px;
+    height: 50px;
+}
+
+.turnOff
+{
+    opacity: 0;
+}
+
+.texto-sobre
+{
+    font-family: 'Metrophobic', sans-serif;
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 32px;
+}
+
+.containerFAQ
+{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.perguntaFAQ
+{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 100px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+
+    color: black;
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.respostasFAQ
+{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 175px;
+    margin-bottom: 20px;
+    overflow: auto;
+    flex-shrink: 0;
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Metrophobic', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.parDireita
+{
+    float: left;
+    margin-right: 5%;
+}
+
+.parEsquerda
+{
+    float: right;
+    margin-left: 5%;
+}
